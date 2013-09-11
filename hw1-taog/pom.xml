@@ -97,6 +97,6 @@
   </dependencies>
   <scm>
   	<developerConnection>scm:git:git://github.com/qqsi/Cambi-SftMethd-hw1.git</developerConnection>
-  	<tag>scm:git:git://github.com/qqsi/Cambi-SftMethd-hw1.git</tag>
+  	<connection>scm:git:git://github.com/qqsi/Cambi-SftMethd-hw1.git</connection>
   </scm>
 </project>
