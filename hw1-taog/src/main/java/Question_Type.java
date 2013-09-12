@@ -10,7 +10,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** 
- * Updated by JCasGen Wed Sep 11 15:13:36 EDT 2013
+ * Updated by JCasGen Wed Sep 11 21:24:37 EDT 2013
  * @generated */
 public class Question_Type extends Sentence_Type {
   /** @generated */

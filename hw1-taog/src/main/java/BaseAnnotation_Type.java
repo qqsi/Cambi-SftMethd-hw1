@@ -13,7 +13,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** BaseAnnotation who provides confidence score and record the name of the component that produced the annotation.
- * Updated by JCasGen Wed Sep 11 15:13:36 EDT 2013
+ * Updated by JCasGen Wed Sep 11 21:24:37 EDT 2013
  * @generated */
 public class BaseAnnotation_Type extends Annotation_Type {
   /** @generated */
@@ -62,20 +62,20 @@ public class BaseAnnotation_Type extends Annotation_Type {
   
  
   /** @generated */
-  final Feature casFeat_nameProduced;
+  final Feature casFeat_source;
   /** @generated */
-  final int     casFeatCode_nameProduced;
+  final int     casFeatCode_source;
   /** @generated */ 
-  public String getNameProduced(int addr) {
-        if (featOkTst && casFeat_nameProduced == null)
-      jcas.throwFeatMissing("nameProduced", "BaseAnnotation");
-    return ll_cas.ll_getStringValue(addr, casFeatCode_nameProduced);
+  public String getSource(int addr) {
+        if (featOkTst && casFeat_source == null)
+      jcas.throwFeatMissing("source", "BaseAnnotation");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_source);
   }
   /** @generated */    
-  public void setNameProduced(int addr, String v) {
-        if (featOkTst && casFeat_nameProduced == null)
-      jcas.throwFeatMissing("nameProduced", "BaseAnnotation");
-    ll_cas.ll_setStringValue(addr, casFeatCode_nameProduced, v);}
+  public void setSource(int addr, String v) {
+        if (featOkTst && casFeat_source == null)
+      jcas.throwFeatMissing("source", "BaseAnnotation");
+    ll_cas.ll_setStringValue(addr, casFeatCode_source, v);}
     
   
 
@@ -92,8 +92,8 @@ public class BaseAnnotation_Type extends Annotation_Type {
     casFeatCode_confidence  = (null == casFeat_confidence) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_confidence).getCode();
 
  
-    casFeat_nameProduced = jcas.getRequiredFeatureDE(casType, "nameProduced", "uima.cas.String", featOkTst);
-    casFeatCode_nameProduced  = (null == casFeat_nameProduced) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_nameProduced).getCode();
+    casFeat_source = jcas.getRequiredFeatureDE(casType, "source", "uima.cas.String", featOkTst);
+    casFeatCode_source  = (null == casFeat_source) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_source).getCode();
 
   }
 }

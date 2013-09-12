@@ -17,7 +17,7 @@
           <rangeTypeName>uima.cas.Float</rangeTypeName>
         </featureDescription>
         <featureDescription>
-          <name>nameProduced</name>
+          <name>source</name>
           <description>Name of the component that produced the annotation</description>
           <rangeTypeName>uima.cas.String</rangeTypeName>
         </featureDescription>
@@ -61,8 +61,7 @@
     </typeDescription>
     <typeDescription>
       <name>TestElement</name>
-      <description>The entire test element
-</description>
+      <description>The entire test element</description>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
         <featureDescription>

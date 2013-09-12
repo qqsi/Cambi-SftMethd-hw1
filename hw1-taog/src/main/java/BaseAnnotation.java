@@ -10,8 +10,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** BaseAnnotation who provides confidence score and record the name of the component that produced the annotation.
- * Updated by JCasGen Wed Sep 11 15:13:36 EDT 2013
- * XML source: /Users/Cambi/Documents/Program/EclipseWorkspace/hw1-taog/src/main/resources/hw1-taog-typesystem.xml
+ * Updated by JCasGen Wed Sep 11 21:24:37 EDT 2013
+ * XML source: /Users/Cambi/git/Cambi-SftMethd-hw1/hw1-taog/src/main/resources/hw1-taog-typesystem.xml
  * @generated */
 public class BaseAnnotation extends Annotation {
   /** @generated
@@ -80,21 +80,21 @@ public class BaseAnnotation extends Annotation {
    
     
   //*--------------*
-  //* Feature: nameProduced
+  //* Feature: source
 
-  /** getter for nameProduced - gets Name of the component that produced the annotation
+  /** getter for source - gets Name of the component that produced the annotation
    * @generated */
-  public String getNameProduced() {
-    if (BaseAnnotation_Type.featOkTst && ((BaseAnnotation_Type)jcasType).casFeat_nameProduced == null)
-      jcasType.jcas.throwFeatMissing("nameProduced", "BaseAnnotation");
-    return jcasType.ll_cas.ll_getStringValue(addr, ((BaseAnnotation_Type)jcasType).casFeatCode_nameProduced);}
+  public String getSource() {
+    if (BaseAnnotation_Type.featOkTst && ((BaseAnnotation_Type)jcasType).casFeat_source == null)
+      jcasType.jcas.throwFeatMissing("source", "BaseAnnotation");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((BaseAnnotation_Type)jcasType).casFeatCode_source);}
     
-  /** setter for nameProduced - sets Name of the component that produced the annotation 
+  /** setter for source - sets Name of the component that produced the annotation 
    * @generated */
-  public void setNameProduced(String v) {
-    if (BaseAnnotation_Type.featOkTst && ((BaseAnnotation_Type)jcasType).casFeat_nameProduced == null)
-      jcasType.jcas.throwFeatMissing("nameProduced", "BaseAnnotation");
-    jcasType.ll_cas.ll_setStringValue(addr, ((BaseAnnotation_Type)jcasType).casFeatCode_nameProduced, v);}    
+  public void setSource(String v) {
+    if (BaseAnnotation_Type.featOkTst && ((BaseAnnotation_Type)jcasType).casFeat_source == null)
+      jcasType.jcas.throwFeatMissing("source", "BaseAnnotation");
+    jcasType.ll_cas.ll_setStringValue(addr, ((BaseAnnotation_Type)jcasType).casFeatCode_source, v);}    
   }
 
     

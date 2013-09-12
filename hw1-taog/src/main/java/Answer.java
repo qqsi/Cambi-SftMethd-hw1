@@ -9,8 +9,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Wed Sep 11 15:13:36 EDT 2013
- * XML source: /Users/Cambi/Documents/Program/EclipseWorkspace/hw1-taog/src/main/resources/hw1-taog-typesystem.xml
+ * Updated by JCasGen Wed Sep 11 21:24:37 EDT 2013
+ * XML source: /Users/Cambi/git/Cambi-SftMethd-hw1/hw1-taog/src/main/resources/hw1-taog-typesystem.xml
  * @generated */
 public class Answer extends Sentence {
   /** @generated
